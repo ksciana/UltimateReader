@@ -184,8 +184,8 @@ async def to_code(config):
     cg.add_library("SPI", None)
     cg.add_library("EEPROM", None)
     cg.add_library("ricmoo/QRCode", "0.0.1")
-    cg.add_library("olikraus/U8g2", "2.35.30")
-    cg.add_library("jgromes/RadioLib", "7.1.1")
+    cg.add_library("olikraus/U8g2", "2.37.1")
+    cg.add_library("jgromes/RadioLib", "7.7.0")
     cg.add_platformio_option("lib_ldf_mode", "chain")
 
     cg.add_platformio_option("build_src_filter", ["+<*>", "-<.git/>", "-<.svn/>"])
